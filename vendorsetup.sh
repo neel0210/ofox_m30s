@@ -21,14 +21,14 @@
 FDEVICE="m30sdd"
 
 # m30sdd specific
-export TARGET_DEVICE_ALT="m30sdd"
+export TARGET_DEVICE_ALT="m30s"
 export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13520000.ufs/by-name/recovery"
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/platform/13520000.ufs/by-name/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/platform/13520000.ufs/by-name/vendor"
 export OF_AB_DEVICE=1
 export OF_DISABLE_MIUI_SPECIFIC_FEATURES="1"
 export OF_FLASHLIGHT_ENABLE="0"
-export OF_MAINTAINER="neel021000"
+export OF_MAINTAINER="neel0210"
 export OF_SCREEN_H=2340
 export OF_STATUS_H=80
 export OF_STATUS_INDENT_LEFT=48
